@@ -71,15 +71,15 @@ Dependencies
 Arabic Text Analyzer used Java Native Interface (JNI) wrapper to access CRF++ functionalilies:
 Two files needed from the CRF++ which are:
 
+- ArabicPOSTaggerLib.jar http://alt.qcri.org/tools/apost/
 - CRFPP.jar
-- ArabicPOSTaggerLib.jar 
 - and a platform depandent library
 	- 	libCRFPP.jnilib -for Mac OS-
 	-	libCRFPP.so -for Linux 86_64-
 	-	CRFPP.dll -for Windows-
   
-You can download the source code for CRF++ from http://code.google.com/p/crfpp/ 
-More details about compiling and building CRF++ is provided below.
+	You can download the source code for CRF++ from http://code.google.com/p/crfpp/ 
+	To build CRFPP and kenlm, See ArabicPOSTaggerLib documentation.
 
 - kenlm langauage model
 KenLM langauge model binary for querying. This is used used for denormalization using the inpur text as a query; denormalized text is generated. 
@@ -88,7 +88,7 @@ http://kheafield.com/code/kenlm/
 
 ===
 
-To build CRFPP and kenlm, See ArabicPOSTaggerLib documentation.
+
 
 CONTACT
 --------------------------
@@ -107,30 +107,21 @@ Where to download the latest version,
 
 LICENSE
 ------------
-This code is licensed under the LGPL except the binaries and libraries in the depadencies which 
+QATARA Library code is made public for RESEARCH purpose only, except the binaries and libraries in the depadencies which 
 have their own licenses, listed below.  See the references in these files for more details.  
  - CRF++
  - KenLM
 
 For the rest:
 
-    QATARA Library is a free software: you can redistribute it and/or modify
-    it under the terms of the GNU Lesser General Public License as published
-    by the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    QATARA Library is being made public for researhc purpose only. 
+    QATARA Library is being made public for research purpose only. 
     For non-research use, please contact:
         Kareem M. Darwish <kdarwish@qf.org.qa>
         Ahmed Abdelali <aabdelali@qf.org.qa>
     
     This library is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU Lesser General Public License for more details.
-
-    You access a copy of the GNU Lesser General Public License
-    at <http://www.gnu.org/licenses/>.
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
 
 
 COPYRIGHT
