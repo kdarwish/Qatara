@@ -1,0 +1,8 @@
+
+$java -Xmx800m -Djava.library.path=./data/ -cp ./lib/ArabicPOSTaggerLib.jar:./lib/CRFPP.jar:./lib/trove-3.0.3.jar:./lib/weka.jar:./dist/ProcessDiacritizedLexicon.jar processdiacritizedlexicon.ProcessDiacritizedLexicon < ./testfile.txt > ./testfile.out.txt
+
+javac -cp lib/ArabicPOSTaggerLib.jar:./dist/ProcessDiacritizedLexicon.jar -d . QataraLib.java
+
+
+java -Xmx2048m -Djava.library.path=../data/ -cp ./lib/ArabicPOSTaggerLib.jar:./lib/CRFPP.jar:./lib/trove-3.0.3.jar:./lib/weka.jar:./dist/ProcessDiacritizedLexicon.jar:. QataraLib -t diac < testfile.txt
+
