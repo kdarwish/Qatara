@@ -7,6 +7,21 @@ QCRI Advanced Tools for ARAbic (QATARA) is a Library of a statistical Tokenizer,
 Named Entities, Gender and Number Tagger, and a Diacritizer  that was trained using Conditional 
 Random Fields (CRF++). CRF have been used for segmenting/labeling data among other NLP tasks.
 
+
+Download
+---------
+
+QATARA Library. Latest release
+
+You may check-out also the latest version from the githup repository: https://github.com/Qatar-Computing-Research-Institute/Qatara
+Data directory is not included. Download the data from http://alt.qcri.org/tools/qatara/data.tgz 
+
+Demonstration
+--------------
+
+Check the QATARA demo online.
+
+
 CONTENTS
 --------------------------
 Package content, files, folders
@@ -21,7 +36,7 @@ How to run the software
 
 Parameters:
 
-	QataraLib <--help|-h> [--task|-t pos|tok|ner] [--klm|-k kenlmDir] <  filename"
+	QataraLib <--help|-h> [--task|-t pos|tok|ner|diac] [--klm|-k kenlmDir] <  filename"
 	* options: 
  	*  --help		display help information
  	*  --task		tok :  Parse file using tokenization model
@@ -82,7 +97,7 @@ If you have any problem, question please contact kdarwish@qf.org.qa or aabdelali
 WEB SITE
 ---------------------------
 URL for the project  and the latest news  and downloads
-	https://github.com/Qatar-Computing-Research-Institute/Qatara
+	http://alt.qcri.org/tools/qatara
 
 GITHUB
 ---------------------------
