@@ -123,7 +123,11 @@ public class QataraLib
             tc.processSTDIN(dataDirectory, kenlmDir, mode, klm);
     }   
 
-
+    public static void processSTDIN(String dataDir, String kenlmDir, int mode, boolean bDenormalizeText) throws Exception, IOException, InterruptedException, FileNotFoundException, ClassNotFoundException
+    {
+        tc.processSTDIN(dataDir, kenlmDir, mode, bDenormalizeText);
+    }
+    
     public static void diacritizeSTDIN()  throws Exception, IOException, InterruptedException, FileNotFoundException, ClassNotFoundException
     {
         String outtext = new String("");
