@@ -19,7 +19,7 @@ Data directory is not included. Download the data from http://alt.qcri.org/tools
 Demonstration
 --------------
 
-Check the QATARA demo online.
+Check the QATARA demo online from http://qatsdemo.cloudapp.net/qatara/.
 
 
 CONTENTS
@@ -36,7 +36,7 @@ How to run the software
 
 Parameters:
 
-	QataraLib <--help|-h> [--task|-t pos|tok|ner|diac] [--klm|-k kenlmDir] <  filename"
+	QataraLib <--help|-h> [--task|-t pos|tok|ner|diac] [--klm|-k kenlmDir] <  filename
 	* options: 
  	*  --help		display help information
  	*  --task		tok :  Parse file using tokenization model
